@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 0.896 s <<< FAILURE! - in TestSuite
+Academy.Inception.North  Time elapsed: 0.541 s  <<< FAILURE!
+java.io.FileNotFoundException: /Users/Hamro/IdeaProjects/BigOne/src/main/java/Resources/data.properties (No such file or directory)
+	at Academy.Inception.North(Inception.java:22)
+
+Academy.Validate.North  Time elapsed: 0.135 s  <<< FAILURE!
+java.io.FileNotFoundException: /Users/Hamro/IdeaProjects/BigOne/src/main/java/Resources/data.properties (No such file or directory)
+	at Academy.Validate.North(Validate.java:22)
+

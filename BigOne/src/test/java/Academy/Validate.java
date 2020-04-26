@@ -23,6 +23,8 @@ public class Validate extends Base {
         //log.info("Good");
         driver.get(prop.getProperty("url"));
         //log.info("Navigated to Homepage");
+        System.out.println("This is the only change");
+        
     }
 
     @Test
