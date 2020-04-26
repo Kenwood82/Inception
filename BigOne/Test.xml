@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="1">
+    <listeners>
+        <listener class-name="Academy.Walls"></listener>
+    </listeners>
+    <test name="InceptionTest">
+
+        <classes>
+            <class name="Academy.Inception"></class>
+
+        </classes>
+
+    </test>
+
+    <test name="ValidateTest">
+
+        <classes>
+
+            <class name="Academy.Validate"></class>
+
+        </classes>
+
+    </test>
+
+</suite>
